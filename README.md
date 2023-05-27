@@ -66,7 +66,7 @@ Reboot to apply changes.
 ### 3- Script to get blacklisted IP and drop connection
 
 ### 4- Set script to run every 5 minutes
-`crontab -e`
+`crontab -e`  
 Add a rule at the bottom:
 ```
 */5 * * * * /usr/bin/python /home/pi/blacklist.py
