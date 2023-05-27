@@ -71,7 +71,6 @@ Add a rule at the bottom:
 ```
 */5 * * * * /usr/bin/python /home/pi/blacklist.py
 ```
-
 ### 5- Set up Flask web server
 
 ### 6- Create HTML page for server
